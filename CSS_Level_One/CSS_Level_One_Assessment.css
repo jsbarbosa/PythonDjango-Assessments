@@ -28,13 +28,13 @@ h2{
 /*Task # 4
 Make all input boxes have a 2px solid dark red border (use rgb for this)*/
 input{
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid rgb(120, 0, 0);
 }
 
 /*Task # 5
 Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
-p + div{
+div p{
     background: #f7ea00;
 }
 

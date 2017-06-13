@@ -1,0 +1,23 @@
+:root{
+    --border: 50px solid #2fc5b6;
+}
+
+body{
+    margin: auto;
+    padding: 100px;
+    background-color: #021527;
+    border-right: var(--border);
+    border-left: var(--border);
+    border-bottom: var(--border);
+
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button{
+    background-color: #ff9e1c;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
