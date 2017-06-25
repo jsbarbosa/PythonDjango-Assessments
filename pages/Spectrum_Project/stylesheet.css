@@ -1,0 +1,37 @@
+:root {
+  --padding: 200px 10px 10px 100px;
+}
+
+h3{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border-spacing: 10px;
+}
+#one{
+    background: #247ba0;
+    padding: var(--padding);
+}
+
+#two{
+    background: #70C1B3;
+    padding: var(--padding);
+}
+
+#three{
+    background: #B2DBBF;
+    padding: var(--padding);
+}
+
+#four{
+    background: #F3FFBD;
+    padding: var(--padding);
+}
+
+#five{
+    background: #FF1654;
+    padding: var(--padding);
+}
