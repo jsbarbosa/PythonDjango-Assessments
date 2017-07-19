@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registered Users</title>
+        <link rel="stylesheet" href="{% static "css/users.css" %}"/>
+    </head>
+    <body>
+        <h1>Registered users are:</h1>
+        <table>
+            <thead>
+                <td class="head">First name</td>
+                <td class="head">Last name</td>
+                <td class="head">Users</td>
+            </thead>
+            {% for user in users %}
+                <tr>
+                    <td> {{ user.first_name }} </td>
+                    <td> {{ user.last_name }} </td>
+                    <td> {{ user.email }} </td>
+                </tr>
+            {% endfor %}
+        </table>
+        <!-- <ol> -->
+            <!-- {% for user in users %}
+                <li>User:</li>
+                <ul>
+                    <li>First name: {{ user.first_name }}</li>
+                    <li>Last name: {{ user.last_name }}</li>
+                    <li>Email: {{ user.email }}</li>
+                </ul>
+            {% endfor %} -->
+        <!-- </ol> -->
+    </body>
+</html>
